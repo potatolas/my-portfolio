@@ -8,7 +8,7 @@
         class="font-body text-lg leading-[200%] text-stone-800 rounded tracking-wide items-center flex gap-4"
       >
         <div>
-          <p class="font-title">
+          <p class="font-title text-[#C15B43] font-semibold">
             Nanyang Technological University | 2018 - 2022
           </p>
           <p>Bachelor of Engineering (Computer Science)</p>
@@ -21,10 +21,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import cert from '../assets/cert.svg';
-</script>
 
 <!-- Nanyang Technological University | 2018 - 2022
 Bachelor of Engineering (Computer Science)

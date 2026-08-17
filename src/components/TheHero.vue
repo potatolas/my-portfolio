@@ -24,7 +24,7 @@
       <div
         class="mx-12 font-body text-lg leading-[200%] text-stone-800 rounded tracking-wide flex gap-4"
       >
-        <div class="h-full border-r-2 border-stone-700 opacity-80 rounded" />
+        <div class="h-full border-r-2 border-[#C15B43] opacity-80 rounded" />
         <div>{{ shortIntro }}</div>
       </div>
     </div>
