@@ -1,18 +1,18 @@
 <template>
   <div class="mx-auto flex">
     <div
-      ref="container"
       class="brutal-bg brutal-shadow group init-group rounded-xl border-2 p-12"
+      ref="container"
     >
       <div class="flex items-center gap-8">
         <div class="flex items-center justify-center">
           <div
-            ref="box"
             class="brutal-shadow box-hover-effect absolute ml-1 h-40 w-40 border-2 bg-[#f8cb46] transition-all"
+            ref="box"
           />
           <img
-            ref="img"
             class="img-hover-effect relative h-48 transition-all"
+            ref="img"
             :src="avatar"
           />
         </div>
