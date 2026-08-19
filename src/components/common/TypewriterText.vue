@@ -49,10 +49,10 @@ onUnmounted(() => {
 <template>
   <span class="font-title flex items-center">
     <span
-      class="leading-0 font-light"
+      class="leading-0"
       :style="{ 'fontSize': fontSize }"
     >
-      <span class="text-stone-700 font-medium">{{ currentWord }}</span>
+      <span>{{ currentWord }}</span>
     </span>
     <span
       :style="{ height: fontSize }"

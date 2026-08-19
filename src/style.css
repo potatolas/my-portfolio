@@ -3,5 +3,15 @@
 @import "tailwindcss";
 
 body {
+  background-color: #fcefe4;
   font-family: "Barlow", sans-serif;
+}
+
+.brutal-shadow {
+  -webkit-box-shadow: 8px 8px 0px 0px #000000; 
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.brutal-bg {
+  background-color: #faf5f3
 }
