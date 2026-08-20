@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto flex">
+  <div class="mx-auto flex fade-in-on-seen">
     <div
       class="brutal-bg brutal-shadow group init-group rounded-xl border-2 p-12"
       ref="container"
@@ -34,6 +34,7 @@
                 :font-size="'60px'"
                 :words="[
                   'Software Engineer.',
+                  'Frontend Developer.',
                   'Web Developer.',
                   'AI Native Developer.',
                 ]"

@@ -15,3 +15,30 @@ body {
 .brutal-bg {
   background-color: #faf5f3;
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-on-seen {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in-on-seen.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
