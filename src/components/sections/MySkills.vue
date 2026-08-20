@@ -7,7 +7,7 @@
     <div class="flex w-full gap-8 flex-wrap justify-center">
       <div v-for="(cat, i) of skills" :key="cat.title"
            class="brutal-bg brutal-shadow min-w-85 rounded-lg border-2 skill-item-container relative overflow-hidden fade-in-on-seen">
-        <div class="text-xl p-3 bg-red-100 rounded-t tracking-tight font-light text-center" :style="{
+        <div class="text-xl p-3 bg-red-100 rounded-t font-light text-center tracking-widest" :style="{
           background: `color-mix(in srgb, ${colors[i % colors.length]} 50%, transparent)`
         }">
           {{ cat.title.toUpperCase() }}

@@ -19,6 +19,9 @@ export function useInitFadeIn(
             // Only trigger once
             observer?.unobserve(entry.target)
           }
+        //   else {
+        //     entry.target.classList.remove('is-visible')
+        //   }
         })
       },
       {
