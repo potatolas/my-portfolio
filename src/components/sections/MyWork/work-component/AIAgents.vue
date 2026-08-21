@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LoopingVideo from '@/components/common/LoopingVideo.vue';
+// import LoopingVideo from '@/components/common/LoopingVideo.vue';
 import architecture from '@/assets/images/architecture.svg'
 // import aiagent from '@/assets/video/ai-agent.webm'
 

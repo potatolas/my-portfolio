@@ -8,7 +8,7 @@
                     <span class="text-lg font-light">BACK</span>
                 </button>
                 <div class="brutal-bg brutal-shadow rounded-xl border-2 p-8 flex flex-col gap-8 mb-auto">
-                    <div class="text-4xl font-light text-center">My Work</div>
+                    <div class="text-4xl font-light text-center whitespace-nowrap">My Work</div>
                     <div class="flex flex-col gap-4" v-for="t, i of works" :key="i">
                         <div class="text-xs opacity-80 tracking-wide font-light">{{ (worksTitle[i] || '').toUpperCase() }}</div>
                         <div class="flex-col flex gap-4 items-start text-xs" v-for="w of t">
@@ -75,13 +75,14 @@ const works = ref<{
             () => import('./work-component/AIAgents.vue')
         ),
     },
-    {
-        key: 'cloud-monitoring',
-        label: 'Cloud Monitoring System',
-        component: defineAsyncComponent(
-            () => import('./work-component/Placeholder.vue')
-        ),
-    }]
+    // {
+    //     key: 'cloud-monitoring',
+    //     label: 'Cloud Monitoring System',
+    //     component: defineAsyncComponent(
+    //         () => import('./work-component/Placeholder.vue')
+    //     ),
+    // }
+    ]
 }
 )
 

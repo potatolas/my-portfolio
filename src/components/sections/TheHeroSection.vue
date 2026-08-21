@@ -36,7 +36,6 @@
                   'Software Engineer.',
                   'Frontend Developer.',
                   'Web Developer.',
-                  'AI Native Developer.',
                 ]"
               />
             </div>
