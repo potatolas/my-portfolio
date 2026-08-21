@@ -1,7 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import "tailwindcss";
 
 body {
+  background-color: #fcefe4;
   font-family: "Barlow", sans-serif;
+}
+
+.brutal-shadow {
+  -webkit-box-shadow: 8px 8px 0px 0px #000000;
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.brutal-bg {
+  background-color: #faf5f3;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-on-seen {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in-on-seen.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* Neo-Brutalist Scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-left: 3px solid #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border: 3px solid #000;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #000 #fff;
 }
